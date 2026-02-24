@@ -56,7 +56,8 @@
     .animate-on-scroll { opacity: 0; }
     .animate-on-scroll.animate-in { animation: fadeInUp 0.8s ease-out forwards; }
     .animate-card { opacity: 0; animation: scaleIn 0.6s ease-out forwards; }
-    .animate-heading { opacity: 0; animation: fadeInDown 0.8s ease-out forwards; }
+    .animate-heading { opacity: 1; }
+    .animate-heading.animate-in { animation: fadeInDown 0.8s ease-out forwards; }
     .animate-slide-left { opacity: 0; animation: slideInLeft 0.8s ease-out forwards; }
     .animate-slide-right { opacity: 0; animation: slideInRight 0.8s ease-out forwards; }
 
@@ -104,7 +105,7 @@
     <div class="relative container mx-auto px-4 py-16 lg:py-24 grid lg:grid-cols-2 gap-10 items-center text-white">
       <div class="animate-heading">
         <span class="inline-block text-xs font-semibold px-3 py-1 rounded-full bg-white/20 text-white mb-5 backdrop-blur-sm border border-white/30">15+ years • Trusted by cooperatives, retailers &amp; banks</span>
-        <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight">
+        <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight text-white [text-shadow:0_10px_30px_rgba(15,23,42,0.55)]">
           Software that digitizes your operations end-to-end
         </h1>
         <p class="mt-5 text-lg text-slate-200 max-w-lg">
